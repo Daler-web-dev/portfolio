@@ -37,7 +37,7 @@ function Layout({children}:LayoutProps) {
                         <DefaultInput label={"Your email"} type={"email"} />
                         <DefaultInput label={"Your budget (optional)"} type={"text"} />
                         <DefaultInput label={"Your project description"} type={"text"} />
-                        <button className="" >SEND</button>
+                        <button className="btn-primary" >SEND</button>
                     </form>
                 </div>
                 <div className="pb-10" >
